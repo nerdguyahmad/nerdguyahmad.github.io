@@ -1,0 +1,71 @@
+body{
+	background-color: rgba(12, 15, 20, 1.00);
+}
+
+@font-face {
+		font-family: Minimal;
+		src: url(../fonts/minimal.otf);
+		font-weight: bolder;
+	}
+
+@font-face {
+		font-family: Gidolinya;
+		src: url(../fonts/Gidolinya-Regular.ttf);
+		font-weight: bolder;
+	}
+
+.font-lg-mid{
+	color: white; 
+	height: 28%; 
+	position: relative; 
+	margin: 0; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	-ms-transform: translate(-50%, -50%); 
+	transform: translate(-50%, -50%);  
+	font-family: Minimal; 
+	letter-spacing: 0.1vw;
+	font-size:5vw
+	
+}
+
+.font-subtitle{
+	color: white; 
+	height: 10%; 
+	position: relative; 
+	margin: 0; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	-ms-transform: translate(-50%, -50%); 
+	transform: translate(-50%, -50%); 
+	font-family: Gidolinya;
+	font-size: 1.8vw;
+}
+
+.paragraph-norm{
+	color: white; 
+	font-family: Gidolinya;
+	font-size: 1.6vw;
+	margin: 20px;
+	margin-top: 20px;
+}
+
+.box{
+	outline-color: white;
+	outline-style: solid;
+	margin-top: 50%;
+	width: 60vw;
+	margin-top: 12%; 
+	margin-left: 21%;
+	font-family: Gidolinya;
+	font-size: 1.8vw;
+}
+
+.contactimg{
+	width: 4%;
+	height: 4%;
+	margin-left: 39%;
+	margin-top: 10%;
+}
