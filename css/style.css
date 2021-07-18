@@ -52,6 +52,13 @@ body {
     background-repeat: no-repeat !important;
 }
 
+.heading .navbar-button-primary-custom {
+	width: 150px;
+}
+.heading .navbar-button-primary-custom:hover {
+  box-shadow: 0 5px 20px #fff !important;
+}
+
 .subheading {
     color: #ffffff;
     line-height: 90px !important;
@@ -63,7 +70,7 @@ body {
 .title {
     line-height: 90px !important;
     margin-bottom: -2px !important;
-    font-size: 35px !important;
+    font-size: 30px !important;
     font-weight: bold;
 }
 
@@ -72,4 +79,19 @@ body {
     color: rgba(255, 255, 255, 0.685) !important;
     font-size: 16px !important;
     font-family: Montserrat, sans-serif;
+}
+
+.about-section {
+	margin-left: 100px; 
+	margin-right: 100px; 
+	border-width: 1px; 
+	border-style: ridge; 
+	border-color: white; 
+	border-radius: 20px; 
+	padding: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+.about-section:hover {
+	box-shadow: 0 5px 20px white !important;
 }
