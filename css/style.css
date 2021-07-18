@@ -1,71 +1,75 @@
-body{
-	background-color: rgba(12, 15, 20, 1.00);
+body {
+	background-color: #1f264a;
+    font-family: 'Poppins', sans-serif !important;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
 }
 
-@font-face {
-		font-family: Minimal;
-		src: url(../fonts/minimal.otf);
-		font-weight: bolder;
-	}
-
-@font-face {
-		font-family: Gidolinya;
-		src: url(../fonts/Gidolinya-Regular.ttf);
-		font-weight: bolder;
-	}
-
-.font-lg-mid{
-	color: white; 
-	height: 28%; 
-	position: relative; 
-	margin: 0; 
-	position: absolute; 
-	top: 50%; 
-	left: 50%; 
-	-ms-transform: translate(-50%, -50%); 
-	transform: translate(-50%, -50%);  
-	font-family: Minimal; 
-	letter-spacing: 0.1vw;
-	font-size:5vw
-	
+@keyframes example {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #2f375e;
+  }
 }
 
-.font-subtitle{
-	color: white; 
-	height: 10%; 
-	position: relative; 
-	margin: 0; 
-	position: absolute; 
-	top: 50%; 
-	left: 50%; 
-	-ms-transform: translate(-50%, -50%); 
-	transform: translate(-50%, -50%); 
-	font-family: Gidolinya;
-	font-size: 1.8vw;
+/* The element to apply the animation to */
+.navbar-link-custom {
+	background-color: transparent;
+    font-size: 16px;
+    font-family: Poppins !important;
+    text-align: center;  
+    padding-right: 15px !important;
+    padding-left: 15px !important;
 }
 
-.paragraph-norm{
-	color: white; 
-	font-family: Gidolinya;
-	font-size: 1.6vw;
-	margin: 20px;
-	margin-top: 20px;
+.navbar-link-custom:hover {
+  animation-name: example;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
 }
 
-.box{
-	outline-color: white;
-	outline-style: solid;
-	margin-top: 50%;
-	width: 60vw;
-	margin-top: 12%; 
-	margin-left: 21%;
-	font-family: Gidolinya;
-	font-size: 1.8vw;
+.navbar-button-primary-custom {
+  width: 120px;
+  font-family: Poppins !important; 
+  transition: all 0.2s ease-in-out;
 }
 
-.contactimg{
-	width: 4%;
-	height: 4%;
-	margin-left: 39%;
-	margin-top: 10%;
+.navbar-button-primary-custom:hover {
+  box-shadow: 0 5px 50px #fff !important;
+}
+
+.heading {
+	font-family: Poppins !important;
+    padding: 160px 50px !important;
+    color: #fff !important;
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+}
+
+.subheading {
+    color: #ffffff;
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 26px
+}
+
+
+.title {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 35px !important;
+    font-weight: bold;
+}
+
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.685) !important;
+    font-size: 16px !important;
+    font-family: Montserrat, sans-serif;
 }
