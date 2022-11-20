@@ -1,0 +1,14 @@
+/*
+* For each component, a separate CSS file should be created. This file
+* considered the global CSS file. Components of this stylesheet should
+* be available for all components.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: #0d0d0d !important;
+}

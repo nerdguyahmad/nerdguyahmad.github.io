@@ -1,0 +1,35 @@
+.NavigationBar .brand {
+    font-family: 'Lobster', cursive !important;
+    font-size: 30px !important;
+    color: white;
+}
+
+.NavigationBar .brand:hover {
+    color: white;
+}
+
+.NavigationBar .nav-link {
+    color: white !important;
+    font-family: 'Montserrat';
+    transition: all ease-in-out 1.5s;
+}
+
+.NavigationBar .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* This class exists to override Bootstrap's default navbar-toggler. The sole
+   purpose of this is to attain white color hamburger icon.
+*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.router-link {
+    text-decoration: none;
+    color: white !important;
+}
+
+.navbar-brand:focus {
+    color: white !important;
+}

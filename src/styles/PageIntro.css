@@ -1,0 +1,26 @@
+.PageIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.PageIntro .page-intro-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+.PageIntro .page-intro-subtitle {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+.PageIntro .page-intro-typer-text {
+    color: #a8f7b3;
+}
