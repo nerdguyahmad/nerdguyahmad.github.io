@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 92vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,5 +22,5 @@
 }
 
 .PageIntro .page-intro-typer-text {
-    color: #a8f7b3;
+    color: #fffb4b;
 }
