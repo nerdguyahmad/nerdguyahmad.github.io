@@ -1,0 +1,36 @@
+.section {
+    padding: 80px;
+}
+
+
+.section .section-title {
+    font-family: 'Lato', sans-serif;
+    font-variant: small-caps;
+}
+
+
+.section .section-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.section-content.reversed {
+    flex-direction: row-reverse;
+}
+
+
+.section .section-body {
+    font-family: 'Nunito', sans-serif;
+    width: 45vw;
+    white-space: pre-line;
+}
+
+
+.section .section-image {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
