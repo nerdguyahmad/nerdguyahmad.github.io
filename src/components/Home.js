@@ -11,7 +11,7 @@ export default function Home () {
                 title='Izhar Ahmad'
                 subtitle={
                     <ReactTypingEffect
-                        text={["Student", "Developer", "Tech Enthuasist"]}
+                        text={["Student", "Developer", "Tech Enthusiast"]}
                         typingDelay={0}
                         eraseDelay={1000}
                         staticText="I'm a"
