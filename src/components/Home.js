@@ -28,7 +28,7 @@ export default function Home () {
                 title="About Me"
                 body={
                     `Hi! I'm Izhar Ahmad often known as "Izxxr" on the internet. I'm a student who `+
-                    `is also a passionate developer. My interests are networking, backend web development`+
+                    `is also a passionate developer. My interests are networking, backend web development `+
                     `and automation. I'm a proficient in Python and JavaScript with some experience `+
                     `in various languages such as Rust and Go. I like spending hours automating tasks `+
                     `that could've been achieved in matter of minutes.\n\n`+
