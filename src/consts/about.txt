@@ -1,5 +1,1 @@
-Hi! I'm Izhar Ahmad mostly known by the nickname of "Izxxr" on other platforms. I'm a student who is a passionate developer. Major interests of mine are networking, backend web development and automation. I'm a proficient in Python and JavaScript with some experience in various languages such as Rust and Go. I like spending hours automating tasks that could've been achieved in matter of minutes.
-
-Due to my interest in automation, I also create bots on various platforms (primarily Discord) to automate basic tasks. I have created many bots on Discord for community and personal servers that are serving thousands of users.
-
-I'm also a freelancer who is open for commissions and will be glad to work on any projects related to backend web development, automation or bot development. Feel free to contact me to discuss regarding this.
+I'm Izhar Ahmad generally identified as "izxxr" on the internet or "thisizahmad" at some places. I'm a programmer and a computer science student. Major interests of mine are networking, backend web development and automation. I'm proficient in Python and JavaScript and these are the languages that I use the most. However, I have got experience in various different programming languages such as C/C++ and Go.
